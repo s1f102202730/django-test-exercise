@@ -8,7 +8,7 @@ from todo.models import Task
 class SampleTestCase(TestCase):
     def test_sample1(self):
         self.assertEqual(1 + 2, 3)
-        
+       
 
 class TaskModelTestCase(TestCase):
     def test_create_task1(self):
