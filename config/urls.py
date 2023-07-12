@@ -7,5 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', todo_views.index, name='index'),
     path('<int:task_id>/', todo_views.detail, name='detail'),
-    path('<int:task_id>/close', todo_view.close, name='close'), 
+    path('<int:task_id>/close', todo_views.close, name='close'), 
 ]
